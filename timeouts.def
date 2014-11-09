@@ -1,0 +1,61 @@
+
+// Prirazeni ID timeoutum
+#define cTm_Main_Proc               0  // Main:     Hlidani casu v hlavnim procesu
+#define cTm_GSM_Proc                1  // GSM:      Hlidani casu pro GSM modem
+#define cTm_PINS_LED_Blink          2  // PINS:     Signalizacni LED
+#define cTm_PINS_Activate           3  // PINS:     Aktivace vstupu
+#define cTm_PINS_C1                 4  // PINS:     Filtrace kontaktu 1..
+#define cTm_PINS_C2                 5  // PINS:
+#define cTm_PINS_C3                 6  // PINS:
+#define cTm_PINS_C4                 7  // PINS:
+#define cTm_PINS_C5                 8  // PINS:
+#define cTm_PINS_C6                 9  // PINS:
+#define cTm_PINS_C7                10  // PINS:
+#define cTm_PINS_C8                11  // PINS:
+#define cTm_PINS_S1                12  // PINS:
+#define cTm_PINS_S2                13  // PINS:
+#define cTm_PINS_S3                14  // PINS:
+#define cTm_PINS_S4                15  // PINS:
+#define cTm_PINS_S5                16  // PINS:
+#define cTm_PINS_EnAlarm           17  // PINS:
+#define cTm_Main_Watch             18  // Main:     Spousteni casovych akci
+#define cTm_Report                 19  // Report:   Preskoceni zpravy
+#define cTm_Action_GetState        20  // Actions:  Test stavu procesu
+#define cTm_Action_KillTime        21  // Actions:  Zabiti procesu
+#define cTm_Speaker                22  // Speaker:
+#define cTm_IncomingCall           23  // GSM:      Vynechani dalsich vyzvaneni
+#define cTm_PINS_Key               24  // PINS:     Prepnuti stavu pomoci kodoveho tlacitka
+#define cTm_SkipDeath              25
+
+// ----------------------------
+#define cNo_Timeouts               26  // Pocet timeoutu celkem
+
+
+// Definice casovych useku
+#define cTm_10ms                    1
+#define cTm_20ms                    2
+#define cTm_50ms                    5
+#define cTm_100ms                  10
+#define cTm_200ms                  20
+#define cTm_300ms                  30
+#define cTm_500ms                  50
+#define cTm_1sec                  100
+#define cTm_2sec                  200
+#define cTm_3sec                  300
+#define cTm_4sec                  400
+#define cTm_5sec                  500
+#define cTm_6sec                  600
+#define cTm_7sec                  700
+#define cTm_10sec                1000
+#define cTm_15sec                1500
+#define cTm_20sec                2000
+#define cTm_25sec                2500
+#define cTm_30sec                3000
+#define cTm_60sec                6000
+#define cTm_80sec                8000
+#define cTm_100sec              10000
+#define cTm_120sec              12000
+#define cTm_150sec              15000
+#define cTm_5min                30000
+#define cTm_10min               60000
+#define cTm_11min               65535
